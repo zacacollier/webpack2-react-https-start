@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["es2015", { "modules" : false }],
+    "stage-2",
+    // Specifies what level of language features to activate
+    // (stage-2 is 'draft')
+    "react"
+    // Transpile React components to JS
+  ],
+  "plugins": [
+    "react-hot-loader/babel"
+  ]
+}
