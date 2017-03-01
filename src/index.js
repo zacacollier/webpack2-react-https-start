@@ -15,7 +15,6 @@ const render = (Component) => {
 
 render(App);
 
-// TODO: add accept statement into configureStore
 if (module.hot) {
   module.hot.accept('./components/App', () => {
     render(App)
