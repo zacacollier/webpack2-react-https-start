@@ -8,7 +8,8 @@ Basic Project Starter with:
 
 ### Usage:
 ```
-  git clone git@github.com:zacacollier/webpack2-react-https-start.git && cd "$_"
+  git clone git@github.com:zacacollier/webpack2-react-https-start.git myNewProject
+  cd myNewProject
   npm install
   npm start
 ```
