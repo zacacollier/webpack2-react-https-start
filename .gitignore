@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
@@ -13,3 +14,18 @@ build
 .DS_Store
 .env
 npm-debug.log
+||||||| merged common ancestors
+=======
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# production
+dist
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+>>>>>>> Add gitignore
