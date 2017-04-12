@@ -50,6 +50,13 @@ module.exports = {
           'postcss-loader',
         ],
       },
+      {
+        test: /\.(jpg|png|svg)$/,
+        use: [
+          'file',
+        ],
+        include: /static/,
+      },
     ],
   },
   plugins: [
