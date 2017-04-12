@@ -52,10 +52,10 @@ module.exports = {
       },
       {
         test: /\.(jpg|png|svg)$/,
+        include: /static/,
         use: [
           'file',
         ],
-        include: /static/,
       },
     ],
   },
