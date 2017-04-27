@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --colors --config ./webpack.config.js",
-    "secure": "webpack-dev-server --colors --config ./webpack.config.https.js"
+    "start": "webpack-dev-server --colors --quiet --config ./webpack.config.js",
+    "secure": "webpack-dev-server --colors --quiet --config ./webpack.config.https.js"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.23.0",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
   }
 }
